@@ -3,7 +3,6 @@ engines:
     enabled: true
     config:
       languages:
-      - javascript
       - php
   fixme:
     enabled: true
