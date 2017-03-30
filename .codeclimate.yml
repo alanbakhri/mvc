@@ -1,7 +1,25 @@
 engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
+  fixme:
+    enabled: true
   phpcodesniffer:
     enabled: true
-
-ratings:
-  paths:
-  - "**.php"
+    config:
+      file_extensions: "php"
+      standard: "PSR1,PSR2"
+  phpmd:
+    enabled: true  
+    config:
+      file_extensions: "php"
+  ratings:
+    paths:
+    - "**.js"
+    - "**.php"
+    exclude_paths: []
+  
+  
