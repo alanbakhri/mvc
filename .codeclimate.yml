@@ -18,8 +18,6 @@ engines:
       file_extensions: "php"
   ratings:
     paths:
-    - "**.js"
     - "**.php"
-    exclude_paths: []
   
   
