@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "alanbakhri\\mvc\\" : "./",
+            "alanbakhri\\mvc\\System\\" : "vendor/System/",
+            "alanbakhri\\mvc\\App\\" : "App/",
+            "alanbakhri\\mvc\\Models\\" : "App/Models/",
+            "alanbakhri\\mvc\\Views\\" : "App/Views/",
+            "alanbakhri\\mvc\\Controllers\\" : "App/Controllers/Users/",
+            "alanbakhri\\mvc\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,3 +1,8 @@
-addons:
-    code_climate:
-        repo_token: 32ec4fdd9d0d2192a5f68e2a8c67cfeb419f36f9af3a3919e5556cb0bf16f1de
+# language: php
+#
+# addons:
+#     code_climate:
+#         repo_token: 32ec4fdd9d0d2192a5f68e2a8c67cfeb419f36f9af3a3919e5556cb0bf16f1de
+#
+# after_success:
+#   - **/vendor/bin/test-reporter

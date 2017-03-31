@@ -1,22 +1,33 @@
-engines:
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - php
-  fixme:
-    enabled: true
-  phpcodesniffer:
-    enabled: true
-    config:
-      file_extensions: "php"
-      standard: "PSR1,PSR2"
-  phpmd:
-    enabled: true  
-    config:
-      file_extensions: "php"
-  ratings:
-    paths:
-    - "**.php"
-  
-  
+# engines:
+#     duplication:
+#         enabled: true
+#         config:
+#             languages:
+#                 - php
+#                 - javascript
+#     fixme:
+#         enabled: true
+#         config:
+#             strings:
+#             - FIXME
+#             - CUSTOM
+#
+#     csslint:
+#         enabled: true
+#
+#     scss-lint:
+#         enabled: true
+#
+# ratings:
+#     paths:
+#         - css/
+#         - scss/
+#         - System/
+#         - App/
+#         - "**.css"
+#         - "**.scss"
+#         - "**.php"
+#     exclude_paths:
+#         - "./public/**/"
+#         - "./vendor/System/"
+#         - "./App/**/**/"
