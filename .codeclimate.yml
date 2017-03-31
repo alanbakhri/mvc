@@ -1,33 +1,3 @@
-# engines:
-#     duplication:
-#         enabled: true
-#         config:
-#             languages:
-#                 - php
-#                 - javascript
-#     fixme:
-#         enabled: true
-#         config:
-#             strings:
-#             - FIXME
-#             - CUSTOM
-#
-#     csslint:
-#         enabled: true
-#
-#     scss-lint:
-#         enabled: true
-#
-# ratings:
-#     paths:
-#         - css/
-#         - scss/
-#         - System/
-#         - App/
-#         - "**.css"
-#         - "**.scss"
-#         - "**.php"
-#     exclude_paths:
-#         - "./public/**/"
-#         - "./vendor/System/"
-#         - "./App/**/**/"
+languages:
+    php: true
+exclude_paths: [".tests/*"]
